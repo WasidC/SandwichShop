@@ -19,6 +19,7 @@ public class sandwichshop {
             sandwichPrice = 8.95;
         } else  {
             System.out.println("invalid");
+            return;
         }
 
         System.out.println("Enter your age: ");
